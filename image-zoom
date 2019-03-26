@@ -1,3 +1,11 @@
+<head>
+<script>
+    jQuery(document).ready(function($){
+        $(".zoomImage img").wrap("<div class='imageWrap'></div>");
+    })
+</script>
+</head>
+
 /* ==========================================================================
 IMAGE ZOOM FEATURE
 ========================================================================== /
