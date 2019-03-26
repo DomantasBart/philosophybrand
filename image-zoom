@@ -1,0 +1,33 @@
+/* ==========================================================================
+IMAGE ZOOM FEATURE
+========================================================================== /
+.imageWrap {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+}
+.imageWrap img {
+  vertical-align: bottom;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -moz-transition: -moz-transform 0.5s ease;
+  -o-transition: -o-transform 0.5s ease;
+  transition: transform 0.5s ease;
+}
+.imageWrap img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/ ==========================================================================
+  END IMAGE ZOOM FEATURE
+  ========================================================================== */
+span.mobile_menu_bar:before {
+    color: darkgray !important;
+}
+.et_mobile_menu {
+   border-top: 3px solid darkgray !important;
+    text-transform : uppercase;
+    text-align: center;
+}
